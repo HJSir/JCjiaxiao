@@ -57,7 +57,7 @@ import static com.example.jian.jcjiaxiao.activity.LoginActivity.bitmap;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+ //我做了第二次修改
     private TextView tv1;
     int tag=1;
     private TextView tv2;

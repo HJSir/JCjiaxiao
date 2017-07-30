@@ -13,6 +13,7 @@ import static com.example.jian.jcjiaxiao.activity.CoureseActivity.doit;
 
 public class CancelActivity extends AppCompatActivity implements View.OnClickListener {
 Button bt_cancel;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
