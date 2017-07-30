@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mianze"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jian.jcjiaxiao.activity.MianzeActivity">
+    <TextView
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="使用说明"/>
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="1、本软件目前只支持科目二约课，且至少登录过网站约过一次课。\n2、根据驾校规则约课只能预约五天内的，第五天的课在12点开放约课，如果您担心手速慢抢不到课，本软件提供了抢课功能，流量耗费大，四分钟1.5M左右，所以建议您在12点前几分钟开启，11.55开启最佳，抢到课后会自动关闭，您也可以点击通知栏进行关闭。\n3、本软件由个人制作，可能有考虑不周的地方，如遇此情况，请重启APP或者以网站为准。"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:gravity="center|right"
+
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="QQ：1296586911"/>
+
+</LinearLayout>

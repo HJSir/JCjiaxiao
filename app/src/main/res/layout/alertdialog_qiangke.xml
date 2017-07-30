@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/al2_time"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text=""/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="注意：请核对抢课时间，点击确定后请勿关闭APP直到抢课结束，否则将导致抢课失败"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="提示：12点开始抢课，您可以提前几分钟开启抢课，这过程会耗费些许流量。"/>
+    </LinearLayout>
+

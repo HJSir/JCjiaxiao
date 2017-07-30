@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+  <TextView
+      android:id="@+id/al_time"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:gravity="center"
+      android:text=""/>
+  <TextView
+
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:gravity="center"
+      android:text="注意：请核对预约信息，按时来驾校训练，如您预约未来按时训练，需到驾校大厅交70%的预约费用"/>
+  <TextView
+
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:gravity="center"
+      android:textColor="@color/black"
+      android:text="提示：如果本时段教练调休，即使预约也不会约上。"/>
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+
+    tools:context="com.example.jian.jcjiaxiao.activity.LoginActivity">
+
+<ImageView
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/login"/>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="7"
+ android:textColor="@color/black"
+    android:textSize="20dp"
+    android:text="账号"
+    android:layout_marginLeft="10dp"
+    android:gravity="center|left"/>
+<EditText
+
+    android:id="@+id/et_id"
+    android:background="@drawable/edit_bg"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="密码"
+            android:layout_marginLeft="10dp"
+            android:gravity="center|left"/>
+        <EditText
+            android:background="@drawable/edit_bg"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/et_pw"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+    <Button
+        style="@style/common_button_style"
+        android:layout_gravity="center"
+        android:id="@+id/bt_login"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="登录"
+        />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textColor="#BC8F8F"
+        android:textStyle="bold"
+        android:gravity="center|left"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="请注意:"/>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:gravity="center|left"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="本APP仅供学习使用对于使用本APP造成的任何后果概不负责，使用即默认同意"/>
+</LinearLayout>
